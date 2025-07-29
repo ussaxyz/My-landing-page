@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Cheaper Auto Insurance Quotes - Save $500+ Per Year!</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #161E31 0%, #1a2332 50%, #161E31 100%);
+            color: white;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Enhanced Animations */
+        @keyframes pulse-glow {
+            0%, 100% { box-shadow: 0 0 20px rgba(0, 208, 132, 0.5); }
+            50% { box-shadow: 0 0 30px rgba(0, 208, 132, 0.8), 0 0 40px rgba(0, 208, 132, 0.3); }
+        }
+
+        @keyframes bounce-slow {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-10px); }
+            60% { transform: translateY(-5px); }
+        }
+
+        @keyframes gradient-shift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+
+        @keyframes shimmer {
+            0% { background-position: -200% 0; }
+            100% { background-position: 200% 0; }
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes scaleIn {
+            from { opacity: 0; transform: scale(0.9); }
+            to { opacity: 1; transform: scale(1); }
+        }
+
+        @keyframes rotateIn {
+            from { transform: rotate(-180deg) scale(0); }
+            to { transform: rotate(0deg) scale(1); }
+        }
+
+        /* Floating Elements */
+        .floating-elements {
+            position: absolute;
+            inset: 0;
+            overflow: hidden;
+            pointer-events: none;
+        }
+
+        .floating-dot {
+            position: absolute;
+            border-radius: 50%;
+            opacity: 0.6;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        .floating-dot:nth-child(1) {
+            top: 80px;
+            left: 40px;
+            width: 16px;
+            height: 16px;
+            background: #fbbf24;
+            animation-delay: 0s;
+        }
+
+        .floating-dot:nth-child(2) {
+            top: 160px;
+            right: 80px;
+            width: 24px;
+            height: 24px;
+            background: #00d084;
+            animation-delay: 1s;
+            animation-duration: 4s;
+        }
+
+        .floating-dot:nth-child(3) {
+            bottom: 160px;
+            left: 80px;
+            width: 12px;
+            height: 12px;
+            background: #5F5FDD;
+            animation-delay: 0.5s;
+            animation-duration: 2.5s;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            position: relative;
+            padding: 80px 0;
+        }
+
+        .hero-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        .hero-text h1 {
+            font-size: 4rem;
+            font-weight: 900;
+            line-height: 1.1;
+            margin-bottom: 30px;
+            animation: scaleIn 0.8s ease-out;
+        }
+
+        .gradient-text {
+            background: linear-gradient(45deg, #fbbf24, #f59e0b);
+            background-size: 200% 200%;
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: gradient-shift 3s ease infinite;
+        }
+
+        .green-text { color: #00d084; }
+        .blue-text { color: #60a5fa; }
+
+        .hero-subtitle {
+            font-size: 1.5rem;
+            color: #cbd5e1;
+            margin-bottom: 40px;
+            animation: fadeInUp 0.8s ease-out 0.2s both;
+        }
+
+        .shimmer-text {
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            background-size: 200% 100%;
+            animation: shimmer 2s infinite;
+            color: #fbbf24;
+            font-weight: 600;
+        }
+
+        /* Enhanced Buttons */
+        .cta-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            padding: 20px 40px;
+            border-radius: 12px;
+            font-size: 1.25rem;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            margin: 10px 0;
+            animation: fadeInUp 0.8s ease-out 0.4s both;
+        }
+
+        .cta-primary {
+            background: linear-gradient(135deg, #00d084 0%, #00b574 100%);
+            color: white;
+            animation: pulse-glow 2s ease-in-out infinite;
+        }
+
+        .cta-primary:hover {
+            transform: scale(1.05);
+            box-shadow: 0 20px 40px rgba(0, 208, 132, 0.3);
+        }
+
+        .cta-secondary {
+            background: linear-gradient(135deg, #5F5FDD 0%, #4F4FCD 100%);
+            color: white;
+            animation: bounce-slow 3s ease-in-out infinite;
+        }
+
+        .cta-secondary:hover {
+            transform: scale(1.05);
+            box-shadow: 0 20px 40px rgba(95, 95, 221, 0.3);
+        }
+
+        /* Live Counter */
+        .live-counter {
+            display: inline-flex;
+            align-items: center;
+            background: linear-gradient(135deg, #5F5FDD 0%, #4F4FCD 100%);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-top: 20px;
+            animation: scaleIn 0.6s ease-out 0.6s both;
+        }
+
+        .live-counter.pulse {
+            animation: scaleIn 0.6s ease-out 0.6s both, pulse-glow 2s ease-in-out infinite 1s;
+        }
+
+        /* Quick Stats */
+        .quick-stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 40px;
+            animation: fadeInUp 0.8s ease-out 0.8s both;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            color: #94a3b8;
+        }
+
+        /* Hero Image */
+        .hero-image {
+            position: relative;
+            animation: fadeInUp 0.8s ease-out 0.4s both;
+        }
+
+        .hero-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 16px;
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .hero-image:hover img {
+            transform: scale(1.02);
+        }
+
+        .save-badge {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+            color: black;
+            font-weight: 700;
+            padding: 12px 24px;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            box-shadow: 0 10px 20px rgba(251, 191, 36, 0.3);
+            animation: rotateIn 0.6s ease-out 1s both;
+        }
+
+        .savings-indicator {
+            position: absolute;
+            bottom: 16px;
+            left: 16px;
+            background: #00d084;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-weight: 600;
+            box-shadow: 0 10px 20px rgba(0, 208, 132, 0.3);
+            animation: fadeInUp 0.6s ease-out 1.2s both;
+        }
+
+        /* Trust Section */
+        .trust-section {
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .trust-title {
+            font-size: 3rem;
+            font-weight: 900;
+            margin-bottom: 30px;
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        .trust-subtitle {
+            font-size: 1.25rem;
+            color: #94a3b8;
+            max-width: 600px;
+            margin: 0 auto 80px;
+            animation: fadeInUp 0.8s ease-out 0.2s both;
+        }
+
+        .trust-badges {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-bottom: 80px;
+        }
+
+        .trust-card {
+            background: rgba(42, 52, 65, 0.8);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 40px 30px;
+            text-align: center;
+            transition: all 0.3s ease;
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        .trust-card:nth-child(1) { animation-delay: 0.1s; }
+        .trust-card:nth-child(2) { animation-delay: 0.2s; }
+        .trust-card:nth-child(3) { animation-delay: 0.3s; }
+
+        .trust-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .trust-icon {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 24px;
+            font-size: 2rem;
+            transition: transform 0.6s ease;
+        }
+
+        .trust-card:hover .trust-icon {
+            transform: rotate(360deg);
+        }
+
+        .icon-green { background: linear-gradient(135deg, #00d084 0%, #00b574 100%); }
+        .icon-yellow { background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%); }
+        .icon-purple { background: linear-gradient(135deg, #5F5FDD 0%, #4F4FCD 100%); }
+
+        .trust-card h3 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            transition: color 0.3s ease;
+        }
+
+        .trust-card:hover h3 {
+            color: #00d084;
+        }
+
+        .trust-card p {
+            color: #94a3b8;
+            line-height: 1.6;
+        }
+
+        /* Testimonials */
+        .testimonials {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 40px;
+        }
+
+        .testimonial-card {
+            background: rgba(42, 52, 65, 0.8);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 30px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        .testimonial-card:nth-child(1) { animation-delay: 0.1s; }
+        .testimonial-card:nth-child(2) { animation-delay: 0.2s; }
+
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .testimonial-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, rgba(251, 191, 36, 0.2) 0%, transparent 100%);
+            border-radius: 0 0 0 80px;
+        }
+
+        .stars {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        .star {
+            color: #fbbf24;
+            font-size: 1.25rem;
+            margin-right: 4px;
+            animation: scaleIn 0.3s ease-out;
+        }
+
+        .star:nth-child(1) { animation-delay: 0.1s; }
+        .star:nth-child(2) { animation-delay: 0.2s; }
+        .star:nth-child(3) { animation-delay: 0.3s; }
+        .star:nth-child(4) { animation-delay: 0.4s; }
+        .star:nth-child(5) { animation-delay: 0.5s; }
+
+        .testimonial-text {
+            font-size: 1.1rem;
+            font-style: italic;
+            color: #666A77;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+        }
+
+        .author-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 700;
+            margin-right: 12px;
+        }
+
+        .avatar-blue { background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 100%); }
+        .avatar-purple { background: linear-gradient(135deg, #a855f7 0%, #7c3aed 100%); }
+
+        .author-info h4 {
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .author-info p {
+            font-size: 0.9rem;
+            color: #6b7280;
+        }
+
+        /* FOMO Section */
+        .fomo-section {
+            padding: 100px 0;
+            background: #2a3441;
+            position: relative;
+        }
+
+        .fomo-section::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(90deg, rgba(185, 28, 28, 0.2) 0%, transparent 50%, rgba(194, 65, 12, 0.2) 100%);
+        }
+
+        .fomo-title {
+            font-size: 3rem;
+            font-weight: 900;
+            text-align: center;
+            margin-bottom: 80px;
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        .fomo-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-bottom: 60px;
+        }
+
+        .fomo-card {
+            background: rgba(42, 52, 65, 0.8);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 40px 30px;
+            text-align: center;
+            transition: all 0.3s ease;
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        .fomo-card:nth-child(1) { 
+            animation-delay: 0.1s;
+            border-color: rgba(239, 68, 68, 0.2);
+            background: linear-gradient(135deg, rgba(127, 29, 29, 0.3) 0%, rgba(194, 65, 12, 0.3) 100%);
+        }
+        .fomo-card:nth-child(2) { 
+            animation-delay: 0.2s;
+            border-color: rgba(249, 115, 22, 0.2);
+            background: linear-gradient(135deg, rgba(194, 65, 12, 0.3) 0%, rgba(180, 83, 9, 0.3) 100%);
+        }
+        .fomo-card:nth-child(3) { 
+            animation-delay: 0.3s;
+            border-color: rgba(251, 191, 36, 0.2);
+            background: linear-gradient(135deg, rgba(180, 83, 9, 0.3) 0%, rgba(21, 128, 61, 0.3) 100%);
+        }
+
+        .fomo-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .fomo-icon {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 24px;
+            font-size: 2rem;
+            color: white;
+        }
+
+        .icon-red { background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%); }
+        .icon-orange { background: linear-gradient(135deg, #f97316 0%, #ea580c 100%); }
+        .icon-yellow { background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%); }
+
+        .fomo-card h3 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            color: white;
+        }
+
+        .fomo-card p {
+            line-height: 1.6;
+        }
+
+        .fomo-card:nth-child(1) p { color: #fecaca; }
+        .fomo-card:nth-child(2) p { color: #fed7aa; }
+        .fomo-card:nth-child(3) p { color: #fef3c7; }
+
+        /* Urgency Banner */
+        .urgency-banner {
+            background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+            color: black;
+            padding: 24px;
+            border-radius: 16px;
+            text-align: center;
+            font-weight: 700;
+            font-size: 1.25rem;
+            box-shadow: 0 20px 40px rgba(251, 191, 36, 0.3);
+            animation: fadeInUp 0.8s ease-out, pulse-glow 2s ease-in-out infinite 1s;
+        }
+
+        /* Final CTA Section */
+        .final-cta {
+            padding: 100px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        .final-cta::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(90deg, rgba(21, 128, 61, 0.2) 0%, transparent 50%, rgba(29, 78, 216, 0.2) 100%);
+        }
+
+        .final-cta h2 {
+            font-size: 3rem;
+            font-weight: 900;
+            margin-bottom: 40px;
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        .final-cta p {
+            font-size: 1.25rem;
+            color: #cbd5e1;
+            max-width: 800px;
+            margin: 0 auto 60px;
+            line-height: 1.6;
+            animation: fadeInUp 0.8s ease-out 0.2s both;
+        }
+
+        .final-cta .cta-button {
+            font-size: 1.5rem;
+            padding: 24px 64px;
+            animation: fadeInUp 0.8s ease-out 0.4s both;
+        }
+
+        .live-agents {
+            font-size: 1.1rem;
+            color: #86efac;
+            font-weight: 600;
+            margin-top: 30px;
+            animation: fadeInUp 0.8s ease-out 0.6s both, pulse-glow 3s ease-in-out infinite 2s;
+        }
+
+        /* Disclaimer Section */
+        .disclaimer-section {
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .disclaimer-card {
+            background: rgba(42, 52, 65, 0.8);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 40px;
+            max-width: 800px;
+            margin: 0 auto;
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        .disclaimer-card h3 {
+            color: #fbbf24;
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .disclaimer-card p {
+            color: #94a3b8;
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 40px 0;
+            border-top: 1px solid #374151;
+            text-align: center;
+        }
+
+        .footer p {
+            color: #6b7280;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero-content {
+                grid-template-columns: 1fr;
+                gap: 40px;
+                text-align: center;
+            }
+
+            .hero-text h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1.25rem;
+            }
+
+            .trust-title, .fomo-title, .final-cta h2 {
+                font-size: 2rem;
+            }
+
+            .quick-stats {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 15px;
+            }
+
+            .stat-number {
+                font-size: 1.5rem;
+            }
+
+            .trust-badges, .fomo-cards {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            .testimonials {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            .cta-button {
+                width: 100%;
+                padding: 16px 32px;
+                font-size: 1.1rem;
+            }
+
+            .final-cta .cta-button {
+                font-size: 1.25rem;
+                padding: 20px 40px;
+            }
+
+            .container {
+                padding: 0 15px;
+            }
+        }
+
+        /* Accessibility */
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+
+        /* High contrast mode */
+        @media (prefers-contrast: high) {
+            .trust-card, .testimonial-card, .fomo-card, .disclaimer-card {
+                background: rgba(42, 52, 65, 0.95);
+                border: 2px solid rgba(255, 255, 255, 0.3);
+            }
+        }
+    </style>
+<link rel="me" href="https://www.blogger.com/profile/06016919378478779449" />
+<meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
+<meta name='google-adsense-platform-domain' content='blogspot.com'/>
+</head>
+<body>
+    <!-- Floating Elements -->
+    <div class="floating-elements">
+        <div class="floating-dot"></div>
+        <div class="floating-dot"></div>
+        <div class="floating-dot"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>
+                        <span>Overpaying on</span><br>
+                        <span class="gradient-text">Car Insurance?</span><br>
+                        <span class="green-text">Get Cheaper Rates</span><br>
+                        <span class="blue-text">in Just 3 Minutes!</span>
+                    </h1>
+                    
+                    <p class="hero-subtitle">
+                        Call Now & See How Much You Could Save! 
+                        <span class="shimmer-text">Operators Standing By!</span>
+                    </p>
+
+                    <a href="tel:+1(844)833-00-99" class="cta-button cta-primary">
+                        📞 CALL NOW: (844) 833-00-99
+                    </a>
+
+                    <div class="live-counter pulse">
+                        ⚡ HOTLINE: <span id="callCount">18</span> people called today! ✨
+                    </div>
+
+                    <div class="quick-stats">
+                        <div class="stat-item">
+                            <div class="stat-number green-text">$500+</div>
+                            <div class="stat-label">Avg. Savings</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number blue-text">3 Min</div>
+                            <div class="stat-label">Quick Call</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" style="color: #fbbf24;">FREE</div>
+                            <div class="stat-label">No Cost</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <img src="https://i.postimg.cc/B6w9SBcN/IMG-6745.jpg" alt="Happy family driving car">
+                    <div class="save-badge">SAVE $$$</div>
+                    <div class="savings-indicator">
+                        📈 <span id="savingsCount">50,000</span>+ Saved!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust & Social Proof Section -->
+    <section class="trust-section">
+        <div class="container">
+            <h2 class="trust-title">
+                Trusted by <span style="background: linear-gradient(45deg, #60a5fa, #a855f7); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;"><span id="customersCount">50,000</span>+ Happy Drivers</span>
+            </h2>
+            <p class="trust-subtitle">
+                Join thousands of satisfied customers who have already saved hundreds on their auto insurance
+            </p>
+
+            <div class="trust-badges">
+                <div class="trust-card">
+                    <div class="trust-icon icon-green">✓</div>
+                    <h3>Licensed Providers</h3>
+                    <p>All insurance partners are fully licensed and regulated by state authorities</p>
+                </div>
+                <div class="trust-card">
+                    <div class="trust-icon icon-yellow">🏆</div>
+                    <h3>A+ BBB Rated</h3>
+                    <p>Highest rating from Better Business Bureau for customer satisfaction</p>
+                </div>
+                <div class="trust-card">
+                    <div class="trust-icon icon-purple">👥</div>
+                    <h3>50,000+ Happy Drivers</h3>
+                    <p>Join thousands who saved on their insurance with our trusted service</p>
+                </div>
+            </div>
+
+            <div class="testimonials">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <blockquote class="testimonial-text">
+                        "Saved $600/year thanks to this call! The process was so easy and fast. I wish I had done this sooner!"
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-avatar avatar-blue">M</div>
+                        <div class="author-info">
+                            <h4 style="color: #60a5fa;">Mike, OH</h4>
+                            <p>Verified Customer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <blockquote class="testimonial-text">
+                        "5-minute call, $40/month cheaper! The agent was professional and found me amazing rates."
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-avatar avatar-purple">S</div>
+                        <div class="author-info">
+                            <h4 style="color: #a855f7;">Sarah, AZ</h4>
+                            <p>Verified Customer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOMO Section -->
+    <section class="fomo-section">
+        <div class="container">
+            <h2 class="fomo-title">
+                Don't Wait – <span class="gradient-text">Every Day You Wait Costs You Money!</span>
+            </h2>
+
+            <div class="fomo-cards">
+                <div class="fomo-card">
+                    <div class="fomo-icon icon-red">🕐</div>
+                    <h3>Don't waste time comparing endless quotes</h3>
+                    <p>We do the work for you – one call, multiple quotes from top providers!</p>
+                </div>
+                <div class="fomo-card">
+                    <div class="fomo-icon icon-orange">🎯</div>
+                    <h3>One fast call could save you $500+/year</h3>
+                    <p>That's real money back in your pocket every month – imagine what you could do with it!</p>
+                </div>
+                <div class="fomo-card">
+                    <div class="fomo-icon icon-yellow">📞</div>
+                    <h3>Limited-time offers – Calls are FREE!</h3>
+                    <p>No forms, no hassle – just a quick call and you're on your way to savings!</p>
+                </div>
+            </div>
+
+            <div class="urgency-banner">
+                ⚡ Calls are FREE – But Waiting Could Cost You Hundreds! ⚡
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="final-cta">
+        <div class="container">
+            <h2>Don't Overpay Another Day!</h2>
+            <p>
+                Trusted by Major Insurance Providers • Limited-Time Discounts Available • Licensed Agents Standing By
+            </p>
+            <a href="tel:+1(844)833-00-99" class="cta-button cta-secondary">
+                📞 CALL +1 (844) 833-00-99 
+            </a>
+            <p class="live-agents">
+                ✨ LIVE AGENTS WAITING! Call before rates change! ✨
+            </p>
+        </div>
+    </section>
+
+    <!-- Disclaimer Section -->
+    <section class="disclaimer-section">
+        <div class="container">
+            <div class="disclaimer-card">
+                <h3>🛡️ Service Available In:</h3>
+                <p>AK, AL, AZ, CO, CT, IA, IL, IN, KS, MD, ME, MO, MT, NE, NH, OH, OK, OR, PA, RI, SC, TN, UT, VA, VT, WA, WI, WY</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2024 Auto Insurance Quotes. All rights reserved. Licensed insurance providers only.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Animated counters
+        function animateCounter(elementId, target, duration = 2000) {
+            const element = document.getElementById(elementId);
+            const start = 0;
+            const startTime = performance.now();
+            
+            function updateCounter(currentTime) {
+                const elapsed = currentTime - startTime;
+                const progress = Math.min(elapsed / duration, 1);
+                const current = Math.floor(progress * target);
+                element.textContent = current.toLocaleString();
+                
+                if (progress < 1) {
+                    requestAnimationFrame(updateCounter);
+                }
+            }
+            
+            requestAnimationFrame(updateCounter);
+        }
+
+        // Live call counter simulation
+        function updateCallCounter() {
+            const callCountElement = document.getElementById('callCount');
+            let currentCount = parseInt(callCountElement.textContent);
+            currentCount += Math.floor(Math.random() * 2) + 1;
+            callCountElement.textContent = currentCount;
+        }
+
+        // Initialize animations when page loads
+        window.addEventListener('load', function() {
+            // Animate counters when they come into view
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        if (entry.target.id === 'savingsCount') {
+                            animateCounter('savingsCount', 50000, 2000);
+                        } else if (entry.target.id === 'customersCount') {
+                            animateCounter('customersCount', 50000, 2500);
+                        }
+                        observer.unobserve(entry.target);
+                    }
+                });
+            });
+
+            observer.observe(document.getElementById('savingsCount'));
+            observer.observe(document.getElementById('customersCount'));
+
+            // Update call counter periodically
+            setInterval(updateCallCounter, 45000);
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add click tracking for analytics (placeholder)
+        document.querySelectorAll('.cta-button').forEach(button => {
+            button.addEventListener('click', function() {
+                // Add your analytics tracking code here
+                console.log('CTA clicked:', this.textContent);
+            });
+        });
+    </script>
+</body>
+</html>
